@@ -363,6 +363,11 @@ footer span.octocat {
 
 /* content */
 
+nav li{
+float: left;
+margin-right: 10px;
+}
+
 body {
   background: #ece4d8;
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
@@ -411,8 +416,11 @@ ul {
 }
 
 ul li {
+/*  float: left;
+  padding-right:  10px;*/
   padding-left: 10px;
   background: transparent url(../images/chevron.png) left 6px no-repeat;
+
 }
 
 blockquote {

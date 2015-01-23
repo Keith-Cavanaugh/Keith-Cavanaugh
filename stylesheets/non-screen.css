@@ -60,6 +60,11 @@ section#main_content {
   padding: 20px 40px 0;
 }
 
+section#nav li{
+flaot: left;
+margin-right: 10px;
+}
+
 footer {
   max-width:640px;
   background: none;
@@ -116,6 +121,8 @@ body {
 }
 
 ul li {
+/*  float: left;
+  padding-right:  10px;*/
   padding-left: 20px;
   background: transparent url(../images/chevron-2x.png) left 15px no-repeat;
 }
